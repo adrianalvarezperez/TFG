@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+
+/* CONTACTO */
+@media (min-width:768px) and (max-width: 992px) {
+   .margin-bottom-c{
+      margin-bottom: 60px;
+   }
+   .img-top {
+      display: none;
+   }
+   .img-top-phone {
+      display: none;
+   }
+   .img-top-tablet {
+      display: block;
+   }
+   .text-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: #000000;
+   }
+   .text-second-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .text-info-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .text-description {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .text-second-description {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .form-label {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #344054;
+   }
+   .form-control {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #667085;
+   }
+   .form-check-label {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #475467;
+   }
+   .btn {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+   }
+}
+
+
+@media (min-width:320px) and (max-width: 767px) {
+   .margin-bottom-c{
+      margin-bottom: 80px;
+   }
+   .img-top-tablet {
+      display: none;
+   }
+   .phone-size {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .form-phone {
+      justify-content: center !important;
+   }
+   .phone-size-2 {
+      margin-right: 20px;
+      margin-left: 20px;
+   }
+   .img-top {
+      display: none;
+   }
+   .img-bot-phone {
+      display: block;
+   }
+   .img-top-tablet {
+      display: none;
+   }
+   .text-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: #000000;
+   }
+   .text-second-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+   }
+   .text-description {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+   }
+   .text-second-description {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+   }
+   .text-info-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+   }
+   .form-label {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      color: #344054;
+   }
+   .form-control {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #667085;
+   }
+   .form-check-label {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #475467;
+   }
+   .btn {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF;
+   }
+}
+
+
+@media (min-width: 993px) {
+   .margin-bottom-c{
+      margin-bottom: 130px;
+   }
+   .img-top {
+      display: block;
+      width: 100%;
+   }
+   .img-top-tablet {
+      display: none;
+   }
+   .img-top-phone {
+      display: none;
+   }
+   .text-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      color: #000000;
+   }
+   .text-second-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .text-info-header {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .text-description {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .text-second-description {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+   }
+   .form-label {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #344054;
+   }
+   .form-control {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #667085;
+   }
+   .form-check-label {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #475467;
+   }
+   .btn {
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+   }
+   /* .div-contacto{
+       padding-left: 77px;
+      } */
+}
+.form-label {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #344054;
+ }
+ .form-control {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+ }
+ .form-check-label {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+ }
+ .btn {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+ }
+ 
+ 
+ @media (min-width: 993px) {
+   .text-header{
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      color: #000000;
+   }
+ }
+ 
+ 
+ @media (min-width:320px) and (max-width: 767px) {
+   .text-header{
+      display: none;
+   }
+   .contact-tablet{}
+ }
+ 
+ 
+ @media (min-width:768px) and (max-width: 992px) {
+   .text-header{
+      font-family: 'PlusJakartaSans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: #000000;
+   }
+ }

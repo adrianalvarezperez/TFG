@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+/* SECTION */
+@media (min-width: 993px) {
+    .sponsor-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        vertical-align: middle;
+    }
+    .text-header{
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px
+    }
+    .hide-content-phone {
+        display: none !important;
+    }
+    .div-size{ 
+        max-width: 1520px;
+        margin: 260px 260px;
+        margin: 0 auto;   
+    }
+}
+
+
+@media (min-width:320px) and (max-width: 767px) {
+    .hide-contento {
+        display: none !important;
+    }
+    .div-flex{
+        display: flex;
+    }
+    .text-header{
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sponsor-container {
+        display: flex;
+        padding: 10px;
+    }
+     .sponsor-container img {
+        width: 80% !important;
+    } 
+}
+
+
+@media (min-width:768px) and (max-width: 992px) {
+    .hide-content-phone{
+    	display: block !important;
+    }
+}
+
+
+.sponsor-container img {
+    width: 90%;
+}

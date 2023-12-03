@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+
+/* NAV-BAR*/
+@media (min-width:320px) and (max-width: 767px) {
+    .hide-catamaran {
+        display: block !important;
+    }
+    .ide-catamaran {
+        display: none !important;
+    }
+    .hide-logo-to{
+        display: none;
+    }
+/*  .navv-center{
+        margin-left: 40px;
+    } */
+/*  .navv-center-flag{
+        margin-left: 47px;
+    } */
+    .hide-logo{
+        display: none !important;
+    }
+}
+
+
+@media (min-width: 993px) {
+    
+    .hide-logo{
+        display: none !important;
+    }
+    .hide-catamaran {
+        display: none !important;
+    }
+    .ide-catamaran {
+        display: block !important;
+    }
+    .div-size {
+        max-width: 1520px;
+        margin: 0 auto;
+    }
+    .dropdown-menu {
+        min-width: 0;
+      }
+}
+
+
+@media (min-width:1100px) and (max-width: 1700px) {
+    /*.div-size-3 {
+        padding-right: 25px;
+        padding-left: 25px;
+    }*/
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+/*  .navv-center-flag{
+        margin-left: 46px;
+    } */
+    .ide-catamaran{
+        display: none;
+    }
+    .hide-logo-to{
+        display: none;
+    }
+/*  .navv-center{
+        margin-left: 40px;
+    } */
+    .hide-logo{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+

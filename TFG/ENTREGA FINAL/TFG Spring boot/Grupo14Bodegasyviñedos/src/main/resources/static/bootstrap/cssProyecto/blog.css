@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+/* BLOG */
+.text-mateo{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21px;
+}
+.text-mateo-div{
+    border-left-color: blue;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding-left: 14px; 
+}
+.name-damian{
+    color:rgb(75, 72, 72)
+}
+.text-conclusion{
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.box-conclusion{
+    background-color:rgba(16, 15, 15, 0.121)
+}
+.text-box{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+.text-box1{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.img-top{
+    width: 100%;
+}
+
+
+@media (min-width: 993px){
+    .show-text{
+        display: none;
+    }
+    .hide.text{
+        display: block;
+    }
+    .img-top{
+        display: block;
+        width: 100%;
+     }
+    .img-top-phone{
+        display: none;
+        
+    }
+    .img-top-tablet{
+        display: none;
+    }
+    .text-lugares-title{
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #000000;   
+    }
+    .text-lugares-description{
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000; 
+    }
+}
+@media (min-width:320px) and (max-width: 767px) {
+    .hide-text{
+        display: none;
+    }
+    .show-text{
+        display: none;
+        position: absolute;
+        color: white !important;
+    }
+    .img-top-phone{
+        display: block;
+        width: 100%;
+    }
+    .img-top-tablet{
+        display: none;
+    }
+    .img-top{
+        display: none;
+    }
+    .text-lugares-title-phone{}
+    .text-lugares-description-phone{
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 992px) {
+    .show-text{
+        display: none;
+    }
+    .hide.text{
+        display: block;
+    }
+    .img-top{
+        display: none;
+        width: 100%;
+     }
+    .img-top-phone{
+        display: none;
+        
+    }
+    .img-top-tablet{
+        display: block;
+        width: 100%;
+     }
+    .text-lugares-title{
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #000000;   
+    }
+    .text-lugares-description{
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000; 
+    }
+}
