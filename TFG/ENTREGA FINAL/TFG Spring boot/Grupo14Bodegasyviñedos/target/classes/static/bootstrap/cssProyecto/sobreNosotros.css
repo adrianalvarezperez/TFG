@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+
+
+/* SOBRE NOSOTROS */
+.static-content-container{
+    height: 100vh;
+    display: flex;
+}
+.static-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 40px;
+    margin-top: 160px;
+}
+.static-content h1{
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 40px;
+}
+.static-content p{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.static-image-container{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.static-image-container img{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.color-text {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (min-width:320px) and (max-width: 767px) {
+    .margin-top-cd{
+        display: flex;
+        justify-content: center;
+    }
+    .text-phone{
+        text-align: center;
+    }
+    .margin-bottom-c{
+        margin-bottom: 50px;
+    }
+    .margin-top-cb{
+        margin-top: 60px;
+    }
+    .margin-bottom-cb{
+        margin-bottom: 40px;
+    }
+    .hide-text-about{
+        display: none;
+    }
+    .img-bot-tablet{
+        display: none;
+    }
+    .phone-size{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hide-text-islas {
+        display: none !important;
+    }
+    .img-bot-phone {
+        display: block;
+        width: 100%;
+    }
+    .hide-text-destinos{
+        display: block;
+    }
+    .img-bot {
+        display: none;
+    }
+    .text-islas {
+        width: 100%;
+        align-content: center;
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text-islas-h1 {
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .text-destinos-h1 {
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    .text-destinos-phone {
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+        text-align: start;
+    }
+}
+
+
+@media (min-width: 993px) {
+    .margin-top-cd{
+        margin-top: 40px;
+    }
+    .margin-bottom-c{
+        margin-bottom: 100px;
+    }
+    .margin-top-c{
+        margin-top: 100px;
+    }
+    .img-bot-tablet{
+        display: none;
+    }
+    .div-size{ 
+        max-width: 1520px;
+        margin: 260px 260px;
+        margin: 0 auto;   
+    }
+    .hide-text-destinos{
+        display: none;
+    }
+    .img-bot-phone {
+        display: none;
+    }
+    .img-bot {
+        display: block;
+    }
+    .text-islas {
+        width: 100%;
+        align-content: center;
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    .text-islas-h1 {
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 992px) {
+    .margin-top-cd{
+        display: flex;
+        justify-content: center;
+    }
+    .margin-top-cb{
+        margin-top: 60px;
+    }
+    .margin-top-c{
+        margin-top: 40px;
+    }
+    .margin-bottom-t{
+        margin-bottom: 30px;
+    }
+    .tablet-size{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .img-bot-tablet{
+        display: block;
+    }
+    .img-bot-phone{
+        display: none;
+    }
+    .img-bot{
+        display: none;
+    }
+    .hide-text-destinos{
+        display: none;
+    }
+    .text-islas {
+        width: 100%;
+        align-content: center;
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    .text-islas-h1 {
+        font-family: 'PlusJakartaSans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+
+
+@media (min-width:1100px) and (max-width: 1700px){
+    .div-size-2{
+    padding-right: 40px;
+    padding-left: 40px;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+
+
+/* FOOTER */
+.sea-down{
+  margin-bottom: 34px;
+}
+.down-text a{
+  text-decoration:none !important;
+  color:white !important;
+}
+.down-text {
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.page-footer {
+  background-color: #191D31;
+  padding: 20px 50px;
+}
+
+
+@media (min-width:320px) and (max-width: 767px) {
+  .p-d{
+    padding-left: 1%;
+  }
+  .m-b-rrss{
+    margin-bottom: 15px;
+  }
+  .tablet-desk{
+    display:none !important;
+  }
+  .icon-phone {
+    width: 100%;
+  }
+  .facebook {
+    width: 28px;
+    height: 28px;
+  }
+  .whatsapp {
+    width: 28px;
+    height: 28px;
+  }
+  .instagram {
+    width: 28px;
+    height: 28px;
+  }
+  .youtube {
+    width: 28px;
+    height: 28px;
+  }
+  .text-titles {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-left: 5px;
+  }
+  .text-sitemap {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .text-copyright {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #B5B5B5;
+  }
+  .hr1 {
+    border: 1px solid #B5B5B5;
+  }
+  .page-footer {
+    background-color: #191D31;
+    padding: 5px 5px;
+  }
+}
+
+
+@media (min-width: 993px) {
+  .phone-div-rrss{
+    display: none !important;
+  }
+  .icon-phone {}
+  .hr1 {
+    border: 1px solid #B5B5B5;
+    margin-top: 60px;
+  }
+  .text-titles-des {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .text-sitemap-des {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .text-copyright-des {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #B5B5B5;
+  }
+  .facebook {
+    width: 42px;
+    height: 42px;
+  }
+  .whatsapp {
+    width: 42px;
+    height: 42px;
+  }
+  .instagram {
+    width: 42px;
+    height: 42px;
+  }
+  .youtube {
+    width: 42px;
+    height: 42px;
+  }
+  .div-size {
+    padding: 0% 12.4% 0% 12.4%;
+  }
+  .div-social {
+    padding-left: 4%;
+  }
+  .div-sitemap {
+    padding-left: 4%;
+  }
+}
+
+
+@media (min-width:768px) and (max-width: 992px) {
+  .phone-div-rrss{
+    display: none !important;
+  }
+  .icon-phone {}
+  .facebook {
+    width: 35px;
+    height: 35px;
+  }
+  .whatsapp {
+    width: 35px;
+    height: 35px;
+  }
+  .instagram {
+    width: 35px;
+    height: 35px;
+  }
+  .youtube {
+    width: 35px;
+    height: 35px;
+  }
+  .hr1 {
+    border: 1px solid #B5B5B5;
+    margin-top: 60px;
+  }
+  .text-titles-des {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .text-sitemap-des {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .text-copyright-des {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #B5B5B5;
+  }
+  /* .div-size {
+    padding: 0% 12.4% 0% 12.4%;
+  } */
+  .div-social {
+    padding-left: 4%;
+  }
+  .div-sitemap {
+    padding-left: 4%;
+  }
+  .page-footer{
+    padding: 5px 5px;
+  }
+}
